@@ -49,3 +49,18 @@
     
     font-weight: 500;
 }
+@media (max-width: 575.98px) { 
+
+    .ex-card{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: small;
+       
+    }
+    .resume-container{
+       
+        padding: 2rem t;
+    }
+
+ }

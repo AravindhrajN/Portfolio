@@ -4,8 +4,8 @@ const Resume=()=>{
     return(
       
         <> 
-    <div className="resume-container ">
-        <h2 className="pt-1 ps-4 resume-title ">Resume</h2>
+    <div className="resume-container p-4">
+        <h2 className="pt-4 ps-4 resume-title ">Resume</h2>
         <div className="container ps-4">
   <div className="row " style={{alignItems:'center'}}>
     <div className="col col-sm-6 ">

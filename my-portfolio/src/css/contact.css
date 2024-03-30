@@ -31,3 +31,7 @@ form .submit-contact{
    border-radius: 12%;
    margin-left: 25%;
 }
+
+.textarea{
+    overflow: auto;
+}

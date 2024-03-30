@@ -1,4 +1,6 @@
-
+.infodet{
+  padding-left: 8%;
+}
  
 
 .pro-container {
@@ -13,10 +15,10 @@
   
   .wrapper {
     transition: 0.5s ease-in;
-  z-index: 1000;
+  
     height: auto;
     width: auto;
-    border: 2px solid yellow;
+  
     transform: translateX(100%);
   }
   
@@ -64,13 +66,13 @@
     background-color: rgb(230, 255, 244);
      border:2px solid rgb(8, 57, 97);
    }
-   .linktopro1{
+   .alink{
   margin: auto;
    width:fit-content;
   }
 .linktopro{
 
-  color: azure;
+  color: red;
   text-decoration: none;
 }
 .linktopro:hover{
@@ -96,16 +98,16 @@
     background-color: rgb(230, 255, 244);
     border: 2px solid rgb(8, 57, 97);
   }
-  .linktopro1{
+  .alink{
     margin: auto;
    width: fit-content;
-  
+  text-decoration: none;
  
     }
   .linktopro{
   width: auto;
     font-size: 0.5rem;
-    color: azure;
+    color:red;
     text-decoration: none;
   }
   .linktopro:hover{
@@ -115,54 +117,19 @@
 }
 
 @media screen and (max-width:992px) {
-  .pro-container{
-    flex-direction: column-reverse;
-  }
-  .wrapper {
-    transition: 0.5s ease-in;
-  z-index: 1000;
-    height: auto;
-    width: auto;
-    border: 2px solid yellow;
-    transform: translateY(-25%);
-  }
   
-  .block1 {
-    border: 2px solid blue;
  
   
 
-  
-  }
-  .wrapper img {
-   width: 100%;
-   height: auto;
-    object-fit: cover;
-    border-radius: 2%;
-  
-  }
-  .wrapper:hover {
-   transform: translateY(0%);
-  
-   
-  
-  }
 
-  .block2{
-
-   
-    transition: 0.2s ease-in;
-    border:2px solid green;
-    z-index: 999;
-  }
   
   
   .pro-container .para {
-   
-  
+
+
     font-size: 0.5rem;
+  
     overflow: auto;
-    overflow-y: auto;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -170,20 +137,62 @@
     background-color: rgb(230, 255, 244);
     border: 2px solid rgb(8, 57, 97);
   }
-  .linktopro1{
+  .alink{
     margin: auto;
    width: fit-content;
+   font-size: 0.2rem;
   
  
     }
   .linktopro{
-  width: auto;
-    font-size: 0.5rem;
-    color: azure;
+    padding: 0px !important;
+    font-size: 0.2rem;
+    color: rgb(26, 209, 54);
     text-decoration: none;
   }
   .linktopro:hover{
-    color: rgb(12, 210, 237);
+    color: rgb(15, 89, 99);
     text-decoration: none;
   }
+}
+@media screen and (max-width:530px){
+
+  
+  .pro-container .para {
+   
+    width: 100px;
+    height:70px;
+ 
+    font-size: 0.1em;
+
+  overflow: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(137, 186, 24);
+    background-color: rgb(230, 255, 244);
+    border: 2px solid rgb(8, 57, 97);
+  }
+  .wrapper img{
+    height: 90px;
+    width: 100px;
+   z-index: 2000;
+
+  }
+  
+  .alink{
+  
+    text-decoration: none;
+  }
+  .linktopro{
+    
+     font-size: xx-small;
+     color: rgb(12, 79, 57);
+    font-size: 0.01rem;
+   font-weight: 800;
+    text-decoration: none;
+  }
+  .wrapper:hover {
+    transform: translateX(-50%);}
+
 }

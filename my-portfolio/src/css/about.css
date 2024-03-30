@@ -34,3 +34,12 @@
      font-style: normal;
      font-size: small;
 }
+@media (max-width: 575.98px) { 
+
+     .about-subtitle{
+          font-family: "Merienda", cursive;
+          font-size: smaller;
+          padding: 2%;
+          line-height: 1.8;
+     }
+}

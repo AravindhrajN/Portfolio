@@ -1,10 +1,11 @@
 const About=()=>{
     return(<>
-    <h2 className="pt-4 pb-2 ps-4 about-title mb-2">About</h2>
-    <p className=" ps-4 about-subtitle"> I'm Aravindhraj N, a full-stack developer based in Chennai, Tamil Nadu, working in web development. I enjoy turning complex problems into simple, beautiful, and intuitive designs. I aim to develop full-stack apps that require proficiency in both front-end and back-end technologies.</p>
+  
+    <h2 className=" pt-5 pb-2 ps-5  about-title mb-2">About</h2>
+    <p className=" ps-5 pe-4  about-subtitle"> I'm Aravindhraj N, a full-stack developer based in Chennai, Tamil Nadu, working in web development. I enjoy turning complex problems into simple, beautiful, and intuitive designs. I aim to develop full-stack apps that require proficiency in both front-end and back-end technologies.</p>
     <div className="whatido">
-        <h4 className="p-3">What I Do!</h4>
-        <div className="row gy-3" style={{alignItems:"baseline"}}>
+        <h4 className="p-5">What I Do!</h4>
+        <div className="row gy-3 mb-5" style={{alignItems:"baseline"}}>
   <div className="col"> <div className="card m-2">
     
     <div className="card-body p-3 ">
@@ -62,7 +63,7 @@ As a full-stack developer, I excel in leveraging cutting-edge technologies to de
   </div>
 </div>
 </div>    
-   
+
     </>
     );
 }
