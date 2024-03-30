@@ -1,0 +1,33 @@
+.contact-title{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+   
+}
+.contact-subtitle{
+    color: rgb(239, 174, 90);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  
+  
+    margin: auto;
+}
+
+.contactform{
+    padding: 1rem;
+    margin: auto;
+
+}
+.contactform label{
+    padding: 0.5em;
+}
+.contactform input{
+    padding: 0.5em;
+}
+form .submit-contact{
+   border:2px solid transparent;
+   border-radius: 12%;
+   margin-left: 25%;
+}

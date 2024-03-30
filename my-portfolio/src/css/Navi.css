@@ -1,0 +1,40 @@
+.nav-item 
+ {
+    
+    margin-left: 1rem;
+    padding: 10px;
+  width: auto;
+
+}
+.nav-item .bts-navi
+ {
+   
+    color: #D70040 ;
+   
+
+}
+.nav-item .bts-navi-current
+ {
+  padding:23px 25px;
+  border: 2px solid transparent;
+  border-radius: 5%;
+
+      color: aliceblue ;
+    background-color: #D70040;
+   
+
+}
+
+.nav-item .nav-link{
+  
+    padding:25px 22px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+
+.nav-item .bts-navi:hover
+ {
+    background-color:#D70040 !important;
+    color: azure !important;
+
+}

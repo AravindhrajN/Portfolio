@@ -1,0 +1,51 @@
+.resume-title{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+.col .card {
+    background-color:#fff4f4;
+    border:1px solid #fff4f4;
+    border-radius: 20px;
+}
+.col .card-middle {
+    background-color:#eef5fa;
+    border:1px solid #eef5fa;
+    border-radius: 20px;
+    width: 75%;
+}
+.col .card-edu{
+    width: 75%;
+
+}
+.skillset .progress{
+    height: 0.5rem;
+}
+
+.skillset .row .percent{
+    
+    padding-left: 40%;
+    
+}
+.ex-card{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: small;
+}
+.resume-container{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  
+
+}
+.knowledgesets{
+    color: #444749;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    
+    font-weight: 500;
+}

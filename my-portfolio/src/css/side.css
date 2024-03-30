@@ -1,0 +1,49 @@
+.side-content-wrapper{
+
+    border: 2px solid red;
+    
+}
+.side-content{
+
+    border: 2px solid rgb(145, 227, 227);
+    margin-top: 50%;
+}
+.profile-img-wrap{
+    border: 2px solid green;
+    position: relative;
+  
+  
+}
+.profile-img-wrap img{
+    border: 2px solid rgb(232, 19, 122);
+    position:absolute;
+   
+    margin-top: -30%;
+    left:25%;
+}
+.profile-content{
+    border: 2px solid rgb(19, 214, 232);
+ 
+    margin: auto;
+   margin-top: 25%;
+ 
+    
+
+}
+.profile-title{
+     width:auto;
+    border: 2px solid rgb(19, 214, 232);
+   margin: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.8em;
+    
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;    
+}

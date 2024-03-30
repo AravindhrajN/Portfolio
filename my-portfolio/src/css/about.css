@@ -1,0 +1,36 @@
+.about-card{
+     display: flex;
+     align-items: center;
+}
+.about-title{
+     font-family: "Poppins", sans-serif;
+     font-weight: 800;
+     font-style: normal;
+    
+}
+.about-subtitle{
+     font-family: "Merienda", cursive;
+}
+.whatido{
+     font-family: "Saira", sans-serif;
+}
+.whatido h5{
+     
+     font-family: "Sriracha", cursive;
+     font-weight: 400;
+    
+     font-style: normal;
+  
+     font-size:larger;
+     background: linear-gradient(90deg, rgba(250,24,24,1) 0%, rgba(170,117,60,1) 50%, rgba(156,161,6,1) 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.card-body  p {
+     line-height: 2;
+     font-family: "Thasadith", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: small;
+}
