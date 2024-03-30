@@ -1,32 +1,43 @@
 .main2{
     width: 100%;
     margin: auto;
+    margin-top: 2rem;
     border: 2px solid transparent;      
-    background-color:white;
+    background-color:rgb(234, 195, 185) ;
+    padding-bottom: 2rem;
 }
 .main2 h2{
-    border: 2px solid grey; 
-    width: 100%;
+    border:0px solid  transparent; 
+    border-top:10px solid  rgb(234, 195, 185); 
+    width: auto;
     text-align: center;
     padding: 1rem;
+    color: brown;
+font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
     
 }
 .button-wrapper-2{
-   
-    width: 25%;
-    margin: 2%  auto 0;
+   padding: 1rem;
+    width: 50%;
 
-    padding: 0.5rem;
-    padding-right: 0rem;
-    padding-left: 0.9rem;
+   margin: auto;
+
+   
 }
-.main2 button{
-    margin: 1rem 1.5rem;
-    width:35%;
-    border: 2px solid transparent; 
-    color: rgb(162, 56, 56);
-    background-color:rgb(234, 195, 185)  ;
-  border-radius: 50%;
+.main2 .button-wrapper-2 .products-highlight{
+  display: flex;
+  justify-content:space-evenly
+  
+}
+.main2 .button-wrapper-2 button{
+
+   
+    color: rgb(168, 36, 36);
+    background-color:rgb(236, 200, 190)  ;
+    padding: 1rem;
+   
 }
 
 .img-wrapper{
@@ -42,9 +53,34 @@
    width: 100%;
     
     background-color:rgb(234, 195, 185);
-
+animation:imgcontainer 6s linear infinite;
+border-image: linear-gradient(90deg, white red); 
+border-image-slice: 1;
+border-image-width: 0.2rem;
       
 }
+.insta{
+  padding: 1px;
+  border-radius: 50%;
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+}
+@keyframes imgcontainer {
+    0% {
+        border-image-source: linear-gradient(90deg,white, red); 
+      }
+      25% {
+        border-image-source: linear-gradient(180deg,white,red);
+      }
+      50% {
+        border-image-source: linear-gradient(270deg,white,red); 
+      }
+      75% {
+        border-image-source: linear-gradient(0deg, white, red); 
+      }
+      100% {
+        border-image-source: linear-gradient(90deg, white, red); 
+      }
+  }
 .main2-subcontent-2{
     display: flex;
     text-align: center;
@@ -52,6 +88,7 @@
 }
 .main2-l-img{
     width: 50%;
+    animation: slidebottom 1s ;
   
 }
 .main2-l-img img{
@@ -61,6 +98,7 @@
 }
 .main2-r-img{
     width: 50%;
+    animation: slidebottom 1s ;
     
 }
 .main2-r-img img{
@@ -68,56 +106,122 @@
     border-radius: 50%;
     
 }
-.row{
-  width: auto;
-margin: auto;
-    flex-wrap: nowrap;
-    
-}
-@media (max-width:480px){
+@keyframes slidebottom {
+    from {
+      margin-bottom: -100%;
+     
+    }
+  
+    to {
+  margin-top:0%; 
 
+}
+}
+.products-highlight{
+width: auto;
+margin: auto;
+flex-wrap: nowrap;
+
+}
+.Newarrival{
+animation: newarrival 4s linear infinite;
+border-image: linear-gradient(90deg, white, red); 
+border-image-slice: 1;
+border-image-width: 0.2rem;
+
+}
+
+@keyframes newarrival {
+    0% {
+        border-image-source: linear-gradient(270deg,white, red); 
+      }
+      25% {
+        border-image-source: linear-gradient(0deg,white, red);
+      }
+      50% {
+        border-image-source: linear-gradient(90deg, white, red); 
+      }
+      75% {
+        border-image-source: linear-gradient(180deg,white, red); 
+      }
+      100% {
+        border-image-source: linear-gradient(270deg, white, red); 
+      }
+  }
+  .Bestselling{
+    border-image: linear-gradient(90deg, white, red); 
+    border-image-slice: 1;
+    animation: bestselling 4s linear infinite;
+    border-image-width: 0.2rem;
+    
+  }
+  
+  @keyframes bestselling {
+    0% {
+        border-image-source: linear-gradient(90deg,white, red); 
+      }
+      25% {
+        border-image-source: linear-gradient(180deg,white , red);
+      }
+      50% {
+        border-image-source: linear-gradient(270deg, white, red); 
+      }
+      75% {
+        border-image-source: linear-gradient(0deg, white, red); 
+      }
+      100% {
+        border-image-source: linear-gradient(90deg, white, red); 
+      }
+  }
+@media (max-width:576px){
+   .main2{
+    margin-top: 0%;
+    border: none;
+    padding-top: 1rem;
+   }
     .main2 button{
      
-      margin-left: 2rem;
-      font-size:1em;
-        width: 35%;
-        margin: auto;
-        border: 2px solid transparent; 
+      
+      font-size:0.5em;
+        width: auto;
+      margin: 0.5rem;
+        padding: 1rem;
+        
         color: rgb(162, 56, 56);
         background-color:rgb(234, 195, 185)  ;
-      border-radius: 50%;
+    
+     
      
     
     }
+  
    
     .img-contain{
   
   
        
-        width: 90%;
-        margin: 1rem ;
+        width: 50%;
+        margin: auto ;
       
           
     }
-    .row{
-        width: auto;
-      margin-right: 2rem;
+   
+    .products-highlight{
+        width:auto;
         flex-wrap: nowrap;
+     
         
     }
     .img-wrapper{
-        width: 100%;
-        margin:0;
+        width: auto;
+        margin:auto;
         background-color:rgb(234, 195, 185)  ;
        
     
     }
    .content-2{
-    margin-top: 2rem;
-    padding-top: 20%;
     
-    border-top: 10px solid rgb(234, 195, 185)  ;
-    border-radius: 50%;
+   margin: auto;
    }
    .main2-l-img{
     display: none;
