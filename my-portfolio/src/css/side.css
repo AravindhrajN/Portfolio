@@ -1,38 +1,42 @@
-.side-content-wrapper{
 
-    border: 2px solid red;
-    
-}
 .side-content{
 
-    border: 2px solid rgb(145, 227, 227);
+    border: 2px solid rgb(255, 255, 255);
     margin-top: 50%;
+    border-radius: 4%;
+    background-color: rgb(232, 255, 220);
 }
 .profile-img-wrap{
-    border: 2px solid green;
+   
     position: relative;
   
   
 }
 .profile-img-wrap img{
-    border: 2px solid rgb(232, 19, 122);
+    border: 3px solid rgb(255, 255, 255);
     position:absolute;
-   
+  background-color: blanchedalmond;
     margin-top: -30%;
     left:25%;
 }
 .profile-content{
-    border: 2px solid rgb(19, 214, 232);
- 
+
+    color: rgb(83, 76, 4);
     margin: auto;
    margin-top: 25%;
- 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    flex-wrap: wrap
+    
     
 
 }
 .profile-title{
      width:auto;
-    border: 2px solid rgb(19, 214, 232);
+   color: rgb(246, 230, 15);
    margin: auto;
     font-family: "Poppins", sans-serif;
     font-weight: 800;
@@ -41,9 +45,26 @@
     
     
 }
+.profile-subtitle{
+    
+ padding: 2%;
+}
 .icons{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50%;    
+    width: 70%;    
+    padding: 2%;
+    margin-bottom: 2%;
+}
+.profilerow{
+    display: flex;
+  
+    font-size: 1rem;
+    margin-top: 2%;
+    padding: 5%;
+    
+}
+.pro-icon{
+    margin-right: 5%;
 }
