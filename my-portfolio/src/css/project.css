@@ -163,13 +163,14 @@
     width: 100px;
     height:70px;
  
-    font-size: 0.1em;
+    font-size: 1rem;
 
-  overflow: auto;
+     overflow: auto;
+     overflow-inline:auto;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: rgb(137, 186, 24);
+    color: rgb(239, 112, 9);
     background-color: rgb(230, 255, 244);
     border: 2px solid rgb(8, 57, 97);
   }
@@ -186,10 +187,10 @@
   }
   .linktopro{
     
-     font-size: xx-small;
-     color: rgb(12, 79, 57);
+     font-size: 1rem;
+     color: rgb(205, 227, 7);
     font-size: 0.01rem;
-   font-weight: 800;
+   font-weight: 400;
     text-decoration: none;
   }
   .wrapper:hover {
