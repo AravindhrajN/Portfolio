@@ -6,7 +6,7 @@ const About=()=>{
     <div className="whatido">
         <h4 className="p-5">What I Do!</h4>
         <div className="row gy-3 mb-5" style={{alignItems:"baseline"}}>
-  <div className="col"> <div className="card m-2">
+  <div className="col-12 col-md-6 "> <div className="card m-2">
     
     <div className="card-body p-3 ">
         <div className="about-card">
@@ -21,7 +21,7 @@ const About=()=>{
    
   </div></div>
   <div className="col">
-  <div className="card">
+  <div className="card  m-2 ">
     <div className="card-body p-3">
     <div className="about-card">
     <img className="card-img-top mb-2" src="./Back.png" style={{width:'25%'}} alt="card cap"/>
@@ -33,8 +33,8 @@ const About=()=>{
   </div>
   </div>
   <div className="w-100"></div>
-  <div className="col">
-  <div className="card">
+  <div className="col-12 col-md-6">
+  <div className="card m-2 ">
 
     <div className="card-body p-3">
     <div className="about-card">
@@ -50,7 +50,7 @@ As a full-stack developer, I excel in leveraging cutting-edge technologies to de
   </div>
   </div>
   <div className="col">
-  <div className="card">
+  <div className="card m-2 ">
    
     <div className="card-body p-3">
     <div className="about-card">
