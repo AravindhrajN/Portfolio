@@ -163,7 +163,7 @@
     width: 100px;
     height:70px;
  
-    font-size: 0.2rem;
+    font-size: 0.5rem;
 
      overflow: auto;
      overflow-inline:auto;
@@ -187,7 +187,7 @@
   }
   .linktopro{
     
-     font-size: 0.3rem;
+     font-size: 0.5rem;
      color: rgb(205, 227, 7);
   
    font-weight: 800;
