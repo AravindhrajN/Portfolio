@@ -1,0 +1,17 @@
+.rightcontainer{
+    padding: 5%;
+}
+.navright{
+    width: 75%;
+   }
+
+@media screen and (max-width:530px){
+
+    .rightcontainer{
+        padding: 2%;
+    }
+   .navright{
+    width: auto;
+   }
+
+}

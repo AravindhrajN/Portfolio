@@ -33,7 +33,7 @@ development work or partnerships.</h6>
  
   <textarea rows={4} cols={25}  name="textarea" id="textarea" placeholder="mesaage me" />
 </div>
-<input type="submit" className="p-2 submit-contact"/>
+<input type="submit" className="p-3  submit-contact"/>
 </form>
 
 

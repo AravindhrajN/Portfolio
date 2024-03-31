@@ -29,7 +29,8 @@
 form .submit-contact{
    border:2px solid transparent;
    border-radius: 12%;
-   margin-left: 25%;
+   margin-left: 40%;
+   margin-bottom: 5%;
 }
 
 .textarea{
