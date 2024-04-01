@@ -170,8 +170,7 @@
   
   .pro-container .para {
    
-    width: 100px;
-    height:70px;
+   
  
     font-size: 0.5rem;
 
@@ -186,25 +185,29 @@
      border-left: 0px;
   }
   .wrapper img{
-    height: 90px;
-    width: 100px;
+   
    z-index: 2000;
 
   }
   
   .alink{
-  
+    
     text-decoration: none;
+  }
+  .prosubtitle{
+    background-color: rgb(114, 9, 128);
   }
   .linktopro{
     
      font-size: 0.5rem;
      color: rgb(205, 227, 7);
-  
+     width: fit-content;
+     margin: auto;
    font-weight: 800;
     text-decoration: none;
   }
+
   .wrapper:hover {
-    transform: translateX(-50%);}
+    transform: translateX(0%);}
 
 }
