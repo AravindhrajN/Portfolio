@@ -168,7 +168,7 @@
    
    
  
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 
      overflow: auto;
      overflow-inline:auto;
@@ -195,7 +195,7 @@
   }
   .linktopro{
     
-     font-size: 0.5rem;
+     font-size: 1rem;
      color: rgb(205, 227, 7);
      width: fit-content;
      margin: auto;
