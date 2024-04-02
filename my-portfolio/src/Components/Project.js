@@ -24,7 +24,7 @@ Places By using Open CV
        
         <p  className=" para col-sm-4  col-6 g-0 p-2">It is a web development app using the Spring Boot framework by Java
            </p>
-           <div className="col-sm-4 col-12 p-1 prosubtitle "><a className="alink" href="https://shoe-makers.onrender.com/"  ><p className="linktopro p-3">FOOTWEAR SALES APP</p></a> </div>
+           <div className="col-sm-4 col-12 p-1 prosubtitle "><a className="alink" href="https://github.com/AravindhrajN/E_com-1.git"  ><p className="linktopro p-3">FOOTWEAR SALES APP</p></a> </div>
       
      
           
