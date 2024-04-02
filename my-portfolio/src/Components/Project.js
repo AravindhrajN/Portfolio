@@ -1,5 +1,5 @@
 const Project=()=>{
-
+      
     return(<>
     <div className="project-conatiner p-3">
     <h2 className=" project-title p-4">Project</h2>
@@ -36,7 +36,8 @@ Places By using Open CV
        
         <p  className=" para col-sm-4 col-6 g-1 p-2">It is a front-end web development app using Reactjs
            </p>
-           <div className="col-sm-4 col-12 p-1 prosubtitle "> <a className="alink " href="https://motherbeauty.vercel.app/" aria-disabled  ><p className="linktopro p-3 ">WOMEN'S BEAUTY PRODUCTS SALES APP</p></a></div> 
+           <div className="col-sm-4 col-12 p-1 prosubtitle "> 
+       <a className="alink  " href="./project"  id="link" ><p className="linktopro p-3 ">WOMEN'S BEAUTY PRODUCTS SALES APP</p></a></div> 
       
      
           
