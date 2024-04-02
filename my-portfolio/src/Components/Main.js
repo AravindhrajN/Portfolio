@@ -42,7 +42,7 @@ const mainview=(data1)=>{
             <div className="container-fulid  main-conatiner" style={{maxWidth:'auto'}}>
                 <div className="row g-0 ">
                     <div className="col-12 col-md-4 "><Sidebar/></div>
-                    <div className="col-12 col-md-8 border border-primary" style={{listStyle:'none'}}><ul className="rightcontainer " style={{listStyle:'none'}}>
+                    <div className="col-12 col-md-8 " style={{listStyle:'none'}}><ul className="rightcontainer " style={{listStyle:'none'}}>
                     <li className=" navright bg-light "  style={{border:'2px solid transparent',borderRadius:'10px'}}><Navi handleclick={handleclick1}/></li>
                     <li className="  bg-light   mt-5 " style={{border:'2px solid transparent',borderRadius:'50px'}}>{mainview(data)}</li>
                     </ul>

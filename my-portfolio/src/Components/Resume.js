@@ -78,7 +78,7 @@ const Resume=()=>{
     </div>
     
   </div>
-  <div className="col mb-6 m-2  pb-5"><h4 className=" ps-3" >Knowledges</h4>
+  <div className="col mb-6   pb-5 Knowledges"><h4 className=" ps-3" >Knowledges</h4>
   <div className=" container-md-6 knowledgesets p-3 pt-1 ">
     <div className="row p-2 g-3">
     <div className="  col-12  col-md-6  p-1 " ><span  >1)React</span></div>
@@ -93,6 +93,10 @@ const Resume=()=>{
   
   </div>
   </div>
+ 
+  </div>
+  <div className="downloadresume ">
+     <a href="./Aravindhraj.CV.pdf" target="_ablank" className="rawresume">Download Resume</a>
   </div>
   </div>
   </div>
