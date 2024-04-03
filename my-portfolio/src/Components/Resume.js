@@ -37,6 +37,10 @@ const Resume=()=>{
   
   </div>
 </div>
+<div className="card-middle mt-4 p-3" style={{width:'auto'}}> <h4 className="card-title pb-2 p-1">Course</h4>
+<ol className="card-text ps-3" ><li ><p  className="p-2">Completed The Frontend web development using Reactjs
+course on Udemy.</p></li>
+<li  ><p  className="p-2">Completed The Spring MVC, Spring boot and Rest controller course on Coursera.</p></li></ol></div>
     </div></div>
     <div className="row m-4 ms-0 mb-2" style={{alignItems:'center'}}>
     <div className="col ">
