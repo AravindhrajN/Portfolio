@@ -100,7 +100,7 @@ course on Udemy.</p></li>
  
   </div>
   <div className="downloadresume ">
-     <a href="./Aravindhraj.CV.pdf" target="_ablank" className="rawresume">Download Resume</a>
+     <a href="./AravindHRAJ N resume1.pdf" target="_ablank" className="rawresume">Download Resume</a>
   </div>
   </div>
   </div>
