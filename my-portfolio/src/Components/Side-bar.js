@@ -3,9 +3,9 @@ const Sidebar=()=>{
       <div className="side-content-wrapper p-2">
         <div className="side-content ">
            <div className="profile-img-wrap" >
-             <img src="./my_new_photo2.png" style={{width:'50%',borderRadius:'10%' }} alt="profileimg"/>
+             <img src="./aravind.png" style={{width:'50%',borderRadius:'10%' }} alt="profileimg"/>
            </div>
-           <div className="profile-content pt-5">
+           <div className="profile-content pt-2">
             <h3 className="profile-title   ">Aravindhraj N</h3>
             <h5 className="profile-subtitle mt-2">Full Stack Developer</h5>
             <div className="icons">

@@ -31,7 +31,7 @@ development work or partnerships.</h6>
 </div>
 <div className="contactform mb-3 mx-3">
  
-  <textarea rows={4} cols={25}  name="textarea" id="textarea" placeholder="mesaage me" />
+  <textarea rows={4} cols={25}  name="textarea" id="textarea" placeholder="message me" />
 </div>
 <input type="submit" className="p-3  submit-contact"/>
 </form>
